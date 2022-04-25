@@ -72,6 +72,11 @@ public class Equirectangular extends ComponentAdapter implements IImageViewer {
             }
             final BufferedImage temporaryOffscreenImage = new BufferedImage(imgDisplay.getWidth(), imgDisplay.getHeight(),
                     BufferedImage.TYPE_4BYTE_ABGR);
+            //converting the current image entry of currentOffscreenImage into
+            //the same type as temporaryOffscreenImage and write the image onto the new bufferedimage
+            
+            //final BufferedImage convertedImg = new BufferedImage(bufImg.getWidth(), bufImg.getHeight(), BufferedImage.TYPE_4BYTE_ABGR);
+            //convertedImg.getGraphics().drawImage(currentOffscreenImage, 0, 0, null);
 
             Vector3D currentRotation = null;
             if (currentCameraPlane != null) {
