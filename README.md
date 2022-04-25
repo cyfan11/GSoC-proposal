@@ -17,5 +17,5 @@
 
 * Contribution to the project
   * Understanding: I went through the procedure of loading a 360 image in JOSM and went through the codes provided to view the image and turing the image into equirectangular. 
-  * Adaptation: I identified the parts of the code that could be used to adapt into other implementation. This could be found in my timeline description and the sample code. 
+  * Adaptation: I identified the parts of the code that could be used to adapt into other implementation. This could be found in my timeline description and the comments in Equirectangular.java. 
   * Brainstorming: I went through the panorama projection project of GIMP and is able to translate the idea into codes and idea of implementation.
